@@ -1,5 +1,7 @@
 # FAQ com IA da Investe Legal
 
+![captura1](https://github.com/user-attachments/assets/1c74659e-3cff-48ec-86f0-2d719839257e)
+
 Este projeto consiste em um **FAQ com IA** para a empresa fictícia de investimentos. O objetivo foi criar um protótipo funcional com menos de 100 linhas de código, utilizando a API da OpenAI e a ferramenta **Assistant** (Beta). O FAQ oferece respostas consistentes e restritas ao conteúdo de um documento específico, mesmo que o usuário reformule a pergunta ou altere o contexto.
 
 ## Visão Geral
