@@ -42,6 +42,7 @@ cd faq-com-ia-investe-legal
 1. **Crie um arquivo .env com suas credenciais da OpenAI API.**
 2. **Atualize a variável ASSISTANT_ID no código com o ID do seu Assistant.**
 Nota: O código para criação e configuração do Assistant foi deixado comentado no início do projeto, pois já foi executado previamente. Caso precise criar o seu próprio Assistant, descomente e utilize o trecho correspondente. Recomendamos verificar a documentação oficial da API para garantir que todos os passos estejam atualizados e funcionando corretamente.
+
 ```bash
 # Como ja criei e configurei o Assistant so forneci o ID dele, deixei comentandado para nao criar novamente, abaixo o codigo de criação:
 ########################################################################
@@ -57,7 +58,9 @@ Nota: O código para criação e configuração do Assistant foi deixado comenta
 
 ### Execute o Projeto
 
+```bash
 **streamlit run app.py**
+```
 
 
 
