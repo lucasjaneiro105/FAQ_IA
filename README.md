@@ -44,16 +44,13 @@ cd faq-com-ia-investe-legal
 Nota: O código para criação e configuração do Assistant foi deixado comentado no início do projeto, pois já foi executado previamente. Caso precise criar o seu próprio Assistant, descomente e utilize o trecho correspondente. Recomendamos verificar a documentação oficial da API para garantir que todos os passos estejam atualizados e funcionando corretamente.
 
 ```bash
-# Como ja criei e configurei o Assistant so forneci o ID dele, deixei comentandado para nao criar novamente, abaixo o codigo de criação:
-########################################################################
-# vector_store = client.beta.vector_stores.create(name = 'FAQ_Invest')
-# files = ['Base_Empresa.docx']
-# file_stream = [open(f, 'rb') for f in files]
+vector_store = client.beta.vector_stores.create(name = 'FAQ_Invest')
+ files = ['Base_Empresa.docx']
+ file_stream = [open(f, 'rb') for f in files]
 
-# file_batch = client.beta.vector_stores.file_batches.upload_and_poll(
-#     vector_store_id=vector_store.id,
-#    files= file_stream)
-########################################################################
+ file_batch = client.beta.vector_stores.file_batches.upload_and_poll(
+     vector_store_id=vector_store.id,
+    files= file_stream)
 ```
 
 ### Execute o Projeto
