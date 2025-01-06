@@ -35,6 +35,7 @@ O documento **"Base_Empresa.docx"**, que contém as informações utilizadas par
 ```bash
 git clone https://github.com/seu-usuario/faq-com-ia-investe-legal.git
 cd faq-com-ia-investe-legal
+```bash
 
 ### Configure suas Credenciais
 
