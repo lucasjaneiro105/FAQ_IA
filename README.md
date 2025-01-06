@@ -45,12 +45,12 @@ Nota: O código para criação e configuração do Assistant foi deixado comenta
 
 ```bash
 vector_store = client.beta.vector_stores.create(name = 'FAQ_Invest')
- files = ['Base_Empresa.docx']
- file_stream = [open(f, 'rb') for f in files]
+files = ['Base_Empresa.docx']
+file_stream = [open(f, 'rb') for f in files]
 
- file_batch = client.beta.vector_stores.file_batches.upload_and_poll(
-     vector_store_id=vector_store.id,
-    files= file_stream)
+file_batch = client.beta.vector_stores.file_batches.upload_and_poll(
+   vector_store_id=vector_store.id,
+   files= file_stream)
 ```
 
 ### Execute o Projeto
