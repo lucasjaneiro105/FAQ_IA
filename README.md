@@ -2,7 +2,7 @@
 
 ![image](https://github.com/user-attachments/assets/38a94993-1674-4a3b-84fe-18d2907690bf)
 
-Este projeto consiste em um **FAQ com IA** para a empresa fictícia de investimentos. O objetivo foi criar um protótipo funcional com menos de 100 linhas de código, utilizando a API da OpenAI e a ferramenta **Assistant** (Beta). O FAQ oferece respostas consistentes e restritas ao conteúdo de um documento específico, mesmo que o usuário reformule a pergunta ou altere o contexto.
+Este projeto consiste em um **FAQ com IA** para a empresa fictícia de investimentos. O objetivo foi criar um protótipo funcional com menos de 100 linhas de código (Considerando apenas o modelo), utilizando a API da OpenAI e a ferramenta **Assistant** (Beta). O FAQ oferece respostas consistentes e restritas ao conteúdo de um documento específico, mesmo que o usuário reformule a pergunta ou altere o contexto.
 
 ## Visão Geral
 
