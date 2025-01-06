@@ -29,3 +29,24 @@ Este projeto consiste em um **FAQ com IA** para a empresa fictícia de investime
 
 O documento **"Base_Empresa.docx"**, que contém as informações utilizadas para o FAQ, também está disponível neste repositório. Ele é a principal fonte de dados para as respostas fornecidas pelo sistema.  
 
+## Como Executar
+
+### Clone o Repositório
+```bash
+git clone https://github.com/seu-usuario/faq-com-ia-investe-legal.git
+cd faq-com-ia-investe-legal
+
+### Configure suas Credenciais
+
+1. **Crie um arquivo .env com suas credenciais da OpenAI API.**
+3. **Atualize a variável ASSISTANT_ID no código com o ID do seu Assistant.**
+Nota: O código para criação e configuração do Assistant foi deixado comentado no início do projeto, pois já foi executado previamente. Caso precise criar o seu próprio Assistant, descomente e utilize o trecho correspondente. Recomendamos verificar a documentação oficial da API para garantir que todos os passos estejam atualizados e funcionando corretamente.
+
+### Execute o Projeto
+
+**streamlit run app.py**
+
+
+
+
+
